@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.border-black{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.rounded{
+border-radius: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.gap{
+    gap: 10px;
+}
+
+.bg-grey{
+    background-color: #202020;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* For WebKit browsers (Chrome, Safari, newer Edge) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Background color of the track */
+    border-radius: 10px; /* Rounded corners of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555; /* Color of the draggable part */
+    border-radius: 10px; /* Rounded corners of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Color of the draggable part on hover */
+}
+
