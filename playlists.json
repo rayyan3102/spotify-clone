@@ -1,0 +1,33 @@
+{
+  "playlists": [
+    {
+      "folder": "fav",
+      "title": "Favorites",
+      "description": "Your favorite tracks",
+      "cover": "songs/fav/cover.jpg",
+      "songs": [
+        { "file": "Anuv Jain  HUSN.mp3", "title": "Anuv Jain - HUSN" },
+        { "file": "Anuv Jain  JO TUM MERE HO.mp3", "title": "Anuv Jain - JO TUM MERE HO" },
+        { "file": "Ishq.mp3", "title": "Ishq" },
+        { "file": "Maanu - Jhol.mp3", "title": "Maanu - Jhol" },
+        { "file": "Samjho Na X Wishes  Mashup.mp3", "title": "Samjho Na X Wishes Mashup" },
+        { "file": "The Neighbourhood - Softcore.mp3", "title": "The Neighbourhood - Softcore" },
+        { "file": "The Weeknd -  After Hours Audio.mp3", "title": "The Weeknd - After Hours" },
+        { "file": "The Weeknd - Starboy.mp3", "title": "The Weeknd - Starboy" }
+      ]
+    },
+    {
+      "folder": "fy",
+      "title": "For You",
+      "description": "Handpicked for you",
+      "cover": "songs/fy/cover.jpg",
+      "songs": [
+        { "file": "Apocalypse  Cigarettes After Sex.mp3", "title": "Apocalypse - Cigarettes After Sex" },
+        { "file": "Lana Del Rey - Cola.mp3", "title": "Lana Del Rey - Cola" },
+        { "file": "Lana Del Rey - Mountain Dew.mp3", "title": "Lana Del Rey - Mountain Dew" },
+        { "file": "Lana Del Rey - Say Yes To Heaven.mp3", "title": "Lana Del Rey - Say Yes To Heaven" },
+        { "file": "Lana Del Rey - Summertime Sadness.mp3", "title": "Lana Del Rey - Summertime Sadness" }
+      ]
+    }
+  ]
+}
