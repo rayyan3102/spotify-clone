@@ -450,19 +450,19 @@ body {
         padding: 0;
         border-radius: 0px;
         height: 76vh;
-        padding-bottom: 90px; /* Prevent overlap with playbar */
+        padding-bottom: 20px; /* Reduced to prevent timer from being hidden */
         box-sizing: border-box;
     }
     .spotifyPlaylist {
         padding: 10px 0 0 0;
         height: 60vh;
-        padding-bottom: 80px; /* Prevent overlap with playbar */
+        padding-bottom: 20px; /* Reduced to prevent timer from being hidden */
         box-sizing: border-box;
     }
     .songlist {
         height: 60vh;
         margin: 10px 0px;
-        padding-bottom: 80px; /* Prevent overlap with playbar */
+        padding-bottom: 20px; /* Reduced to prevent timer from being hidden */
         box-sizing: border-box;
     }
     .playbar {
@@ -475,6 +475,14 @@ body {
         left: 0;
         bottom: 0;
         z-index: 1000;
+    }
+    .abovebar {
+        margin-bottom: 0;
+    }
+    .songtime {
+        margin-bottom: 0;
+        position: relative;
+        z-index: 1100;
     }
     .seekbar {
         width: 90vw;
