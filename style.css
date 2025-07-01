@@ -450,6 +450,20 @@ body {
         padding: 0;
         border-radius: 0px;
         height: 76vh;
+        padding-bottom: 90px; /* Prevent overlap with playbar */
+        box-sizing: border-box;
+    }
+    .spotifyPlaylist {
+        padding: 10px 0 0 0;
+        height: 60vh;
+        padding-bottom: 80px; /* Prevent overlap with playbar */
+        box-sizing: border-box;
+    }
+    .songlist {
+        height: 60vh;
+        margin: 10px 0px;
+        padding-bottom: 80px; /* Prevent overlap with playbar */
+        box-sizing: border-box;
     }
     .playbar {
         width: 100vw;
@@ -460,7 +474,7 @@ body {
         padding: 8px 0 0 0;
         left: 0;
         bottom: 0;
-        z-index: 10;
+        z-index: 1000;
     }
     .seekbar {
         width: 90vw;
