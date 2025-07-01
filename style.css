@@ -414,167 +414,73 @@ body {
 }
 
 @media (max-width: 600px) {
-    body {
-        font-size: 16px;
-    }
     .cardContainer {
         max-height: 51vh;
         margin-top: 10px;
-        gap: 16px;
-        justify-content: center;
     }
     .card {
-        width: 90vw;
-        min-width: 220px;
-        padding: 16px 10px;
-        margin: 0 auto;
-        border-radius: 12px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-        font-size: 15px;
-        transition: box-shadow 0.3s;
-    }
-    .card img {
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
-    .card h1 {
-        font-size: 18px;
-        margin: 8px 0 4px 0;
-    }
-    .card p {
-        font-size: 14px;
-        color: #b3b3b3;
+        width: 75vw;
     }
     .right {
         margin: 0;
-        padding: 0;
-        border-radius: 0px;
-        height: 76vh;
-        padding-bottom: 20px; /* Reduced to prevent timer from being hidden */
-        box-sizing: border-box;
-    }
-    .spotifyPlaylist {
-        padding: 10px 0 0 0;
-        height: 60vh;
-        padding-bottom: 20px; /* Reduced to prevent timer from being hidden */
-        box-sizing: border-box;
-    }
-    .songlist {
-        height: 60vh;
-        margin: 10px 0px;
-        padding-bottom: 20px; /* Reduced to prevent timer from being hidden */
-        box-sizing: border-box;
     }
     .playbar {
-        width: 100vw;
-        height: 70px;
-        min-height: 60px;
-        background: #181818;
-        border-radius: 0;
-        padding: 8px 0 0 0;
-        left: 0;
-        bottom: 0;
-        z-index: 1000;
+        width: 94%;
+        height: 22vh;
+        background-color: #005000;
     }
-    .abovebar {
-        margin-bottom: 0;
-    }
-    .songtime {
-        margin-bottom: 0;
-        position: relative;
-        z-index: 1100;
-    }
-    .seekbar {
-        width: 90vw;
-        left: 5vw;
-        bottom: 18px;
-    }
-    .abovebar {
-        flex-direction: column;
-        gap: 6px;
-        align-items: center;
-        margin: 0;
-        width: 100vw;
-    }
-    .songinfo {
-        font-size: 15px;
-        text-align: center;
-        width: 100vw;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-    .songtime {
-        font-size: 13px;
-        width: 100vw;
-        text-align: center;
-    }
-    .playbutton img {
-        width: 32px !important;
-        margin: 0 8px;
-    }
-    .songlist {
-        height: 60vh;
-        margin: 10px 0px;
-    }
-    .songlist ul li {
-        font-size: 15px;
-        padding: 18px 10px;
-        margin: 10px 0px;
-        border-radius: 14px;
-        background: #232323;
-        display: flex;
-        align-items: center;
-        gap: 16px;
-        box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-    }
-    .songlist ul li .info {
-        font-size: 16px;
-        font-weight: 500;
-        flex: 1;
-    }
-    .playnow {
-        gap: 6px;
-    }
-    .volume {
-        gap: 8px;
-    }
-    .range input {
-        width: 70px;
-    }
-    .signupbtn, .loginbtn {
-        font-size: 17px;
-        padding: 8px 18px;
-        border-radius: 22px;
-        margin: 0 6px;
-        width: auto;
-        cursor: pointer;
-    }
-    .hamburger, .card, .songlist ul li, .range input {
-        cursor: pointer;
+    .right {
+        border-radius: 0px;
+        height: 76vh;
     }
     .header {
         border-radius: 0px;
         height: 60px;
-        padding: 0;
     }
     .header>* {
         padding: 10px;
     }
     .spotifyPlaylist {
-        padding: 10px 0 0 0;
+        padding: 20px;
         height: 60vh;
     }
     .spotifyPlaylist h1 {
-        padding: 5px 0 10px 10px;
-        font-size: 22px;
+        padding: 5px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .songlist {
+        height: 63vh;
+        overflow: auto;
+        margin: 10px 0px;
     }
     .left {
         width: 100vw;
-        padding: 0 0 20px 0;
     }
-    .close {
-        top: 18px;
-        right: 18px;
+    .hamburger {
+        cursor: none;
+    }
+    .card {
+        cursor: none;
+    }
+    .songlist ul li {
+        cursor: none;
+    }
+    .range input {
+        cursor: none;
+    }
+    .signupbtn {
+        cursor: none;
+    }
+    .loginbtn {
+        cursor: none;
+    }
+    .songlist ul li:hover {
+        background-color: #313131;
+        transition: all 0.5s;
+    }
+    .library {
+        height: 75vh;
     }
 }
